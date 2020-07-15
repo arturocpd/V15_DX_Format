@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Nested_Test_RT__c</fullName>
+    <externalId>false</externalId>
+    <label>Nested Test RT</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Destructive1</fullName>
+                <default>false</default>
+                <label>Destructive1</label>
+            </value>
+            <value>
+                <fullName>Destructive2</fullName>
+                <default>false</default>
+                <label>Destructive2</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

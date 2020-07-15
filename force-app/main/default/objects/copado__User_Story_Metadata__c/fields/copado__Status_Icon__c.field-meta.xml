@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>copado__Status_Icon__c</fullName>
+    <deprecated>false</deprecated>
+    <externalId>false</externalId>
+    <formula>IMAGE(
+CASE(TEXT(copado__Status__c),
+
+&#39;Potential Conflict&#39;, &#39;/resource/&#39; &amp; IF($Setup.copado__Settings__c.copado__Namespace__c=&#39;none&#39;,&#39;&#39;,if(isblank($Setup.copado__Settings__c.copado__Namespace__c),&#39;copado__&#39;,$Setup.copado__Settings__c.copado__Namespace__c)) &amp; &#39;Statics/img/icons/warning16.png&#39;,
+
+&#39;Back Promoted&#39;, &#39;/resource/&#39; &amp; IF($Setup.copado__Settings__c.copado__Namespace__c=&#39;none&#39;,&#39;&#39;,if(isblank($Setup.copado__Settings__c.copado__Namespace__c),&#39;copado__&#39;,$Setup.copado__Settings__c.copado__Namespace__c)) &amp; &#39;Statics/img/icons/warning16.png&#39;,
+
+&#39;Conflict Resolved&#39;, &#39;/resource/&#39; &amp; IF($Setup.copado__Settings__c.copado__Namespace__c=&#39;none&#39;,&#39;&#39;,if(isblank($Setup.copado__Settings__c.copado__Namespace__c),&#39;copado__&#39;,$Setup.copado__Settings__c.copado__Namespace__c)) &amp; &#39;Statics/img/icons/confirm16.png&#39;,
+
+&#39;Under Review&#39;, &#39;/resource/&#39; &amp; IF($Setup.copado__Settings__c.copado__Namespace__c=&#39;none&#39;,&#39;&#39;,if(isblank($Setup.copado__Settings__c.copado__Namespace__c),&#39;copado__&#39;,$Setup.copado__Settings__c.copado__Namespace__c)) &amp; &#39;Statics/img/icons/loading.gif&#39;,
+
+&#39;On Hold&#39;, &#39;/resource/&#39; &amp; IF($Setup.copado__Settings__c.copado__Namespace__c=&#39;none&#39;,&#39;&#39;,if(isblank($Setup.copado__Settings__c.copado__Namespace__c),&#39;copado__&#39;,$Setup.copado__Settings__c.copado__Namespace__c)) &amp; &#39;Statics/img/icons/warning16.png&#39;,
+
+&#39;/s.gif&#39;),
+
+TEXT(copado__Status__c)
+)</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>Status Icon</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

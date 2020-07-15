@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>copado__Artifact_Repo_Control_For_Package_Type</fullName>
+    <active>true</active>
+    <description>Artifact Reposiroty null control depending of Package Type</description>
+    <errorConditionFormula>IF(
+OR(
+AND(ISBLANK(copado__Artifact_Repository__c), 
+(ISPICKVAL(copado__Package_Type__c, &#39;Unlocked&#39;) || ISPICKVAL(copado__Package_Type__c, &#39;Second-Generation Package&#39;))),
+(NOT(ISBLANK(copado__Artifact_Repository__c)) &amp;&amp; ISPICKVAL(copado__Package_Type__c, &#39;Unmanaged&#39;))), true, false
+)</errorConditionFormula>
+    <errorDisplayField>copado__Artifact_Repository__c</errorDisplayField>
+    <errorMessage>Repository relation for packages is required for Unlocked and Second Generation Packages and should be empty for Unmanaged Packages</errorMessage>
+</ValidationRule>

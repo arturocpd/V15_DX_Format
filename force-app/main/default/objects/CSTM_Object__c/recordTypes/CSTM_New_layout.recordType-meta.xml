@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RecordType xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>CSTM_New_layout</fullName>
+    <active>true</active>
+    <label>CSTM New layout</label>
+</RecordType>
