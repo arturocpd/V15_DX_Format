@@ -4,4 +4,4 @@
 /.git
 /deployment
 /.sfdx
-
+**/__tests__/**
