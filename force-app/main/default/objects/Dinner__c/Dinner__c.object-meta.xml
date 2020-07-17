@@ -143,10 +143,10 @@
     <allowInChatterGroups>false</allowInChatterGroups>
     <compactLayoutAssignment>Cool_Dinner</compactLayoutAssignment>
     <deploymentStatus>Deployed</deploymentStatus>
-    <description>Change description 22222</description>
+    <description>description field 2</description>
     <enableActivities>false</enableActivities>
     <enableBulkApi>true</enableBulkApi>
-    <enableFeeds>false</enableFeeds>
+    <enableFeeds>true</enableFeeds>
     <enableHistory>true</enableHistory>
     <enableLicensing>false</enableLicensing>
     <enableReports>false</enableReports>
@@ -157,11 +157,14 @@
     <gender>Feminine</gender>
     <label>Dinner</label>
     <nameField>
+        <encryptionScheme>None</encryptionScheme>
         <label>Dinner Name</label>
+        <trackFeedHistory>false</trackFeedHistory>
         <trackHistory>true</trackHistory>
         <type>Text</type>
     </nameField>
     <pluralLabel>Dinners</pluralLabel>
+    <recordTypeTrackFeedHistory>false</recordTypeTrackFeedHistory>
     <recordTypeTrackHistory>true</recordTypeTrackHistory>
     <searchLayouts/>
     <sharingModel>ReadWrite</sharingModel>
