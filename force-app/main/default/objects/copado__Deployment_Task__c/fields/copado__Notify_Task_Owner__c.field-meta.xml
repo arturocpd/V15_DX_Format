@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
     <fullName>copado__Notify_Task_Owner__c</fullName>
-    <defaultValue>&#39;None&#39;</defaultValue>
+    <defaultValue>&apos;None&apos;</defaultValue>
     <deprecated>false</deprecated>
     <externalId>false</externalId>
     <label>Notify Task Owner</label>

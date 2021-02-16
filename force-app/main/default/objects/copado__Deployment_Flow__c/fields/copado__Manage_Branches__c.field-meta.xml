@@ -4,10 +4,10 @@
     <deprecated>false</deprecated>
     <description>Link to open the Branch and Environment Management page for the Deployment Flow.</description>
     <externalId>false</externalId>
-    <formula>HYPERLINK(&#39;/apex/&#39;&amp;
-IF($Setup.copado__Settings__c.copado__Namespace__c=&#39;none&#39;,&#39;&#39;,
-  IF(isblank($Setup.copado__Settings__c.copado__Namespace__c),&#39;copado__&#39;,$Setup.copado__Settings__c.copado__Namespace__c)
-)&amp;&#39;BranchManagement?id=&#39;&amp;Id, &#39;Release Management Page&#39;, &#39;_blank&#39;)</formula>
+    <formula>HYPERLINK(&apos;/apex/&apos;&amp;
+IF($Setup.copado__Settings__c.copado__Namespace__c=&apos;none&apos;,&apos;&apos;,
+  IF(isblank($Setup.copado__Settings__c.copado__Namespace__c),&apos;copado__&apos;,$Setup.copado__Settings__c.copado__Namespace__c)
+)&amp;&apos;BranchManagement?id=&apos;&amp;Id, &apos;Release Management Page&apos;, &apos;_blank&apos;)</formula>
     <label>Manage Releases</label>
     <required>false</required>
     <trackHistory>false</trackHistory>

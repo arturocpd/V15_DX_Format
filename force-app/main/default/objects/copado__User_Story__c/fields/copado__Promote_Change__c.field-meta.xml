@@ -3,7 +3,7 @@
     <fullName>copado__Promote_Change__c</fullName>
     <defaultValue>false</defaultValue>
     <deprecated>false</deprecated>
-    <description>If checked, the User Story is marked as ready to be promoted. The user story will appear as &#39;Ahead&#39; and available to be selected in the Branch Management and Promotion pages.</description>
+    <description>If checked, the User Story is marked as ready to be promoted. The user story will appear as &apos;Ahead&apos; and available to be selected in the Branch Management and Promotion pages.</description>
     <externalId>false</externalId>
     <label>Promote Change</label>
     <trackHistory>false</trackHistory>

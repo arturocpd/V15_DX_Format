@@ -144,7 +144,7 @@
     <compactLayoutAssignment>SYSTEM</compactLayoutAssignment>
     <deploymentStatus>Deployed</deploymentStatus>
     <deprecated>false</deprecated>
-    <description>A theme is a group of user stories which contribute to a common goal. It is the highest level of the user story hierarchy. On the other hand, an epic is a big user story that has to be divided into several user stories because it can&#39;t be completed within one sprint.</description>
+    <description>A theme is a group of user stories which contribute to a common goal. It is the highest level of the user story hierarchy. On the other hand, an epic is a big user story that has to be divided into several user stories because it can&apos;t be completed within one sprint.</description>
     <enableActivities>false</enableActivities>
     <enableBulkApi>true</enableBulkApi>
     <enableFeeds>false</enableFeeds>

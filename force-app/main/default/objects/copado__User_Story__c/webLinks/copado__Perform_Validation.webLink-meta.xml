@@ -9,5 +9,5 @@
     <masterLabel>Validate Changes</masterLabel>
     <openType>sidebar</openType>
     <protected>false</protected>
-    <url>/apex/{!IF($Setup.copado__Settings__c.copado__Namespace__c == &#39;none&#39;, &#39;&#39;, $Setup.copado__Settings__c.copado__Namespace__c)}UserStoryPageWaitingFor?id={!copado__User_Story__c.Id}&amp;type=validation</url>
+    <url>/apex/{!IF($Setup.copado__Settings__c.copado__Namespace__c == &apos;none&apos;, &apos;&apos;, $Setup.copado__Settings__c.copado__Namespace__c)}UserStoryPageWaitingFor?id={!copado__User_Story__c.Id}&amp;type=validation</url>
 </WebLink>

@@ -3,7 +3,7 @@
     <fullName>copado__Skip_Dependency__c</fullName>
     <deprecated>false</deprecated>
     <externalId>false</externalId>
-    <formula>OR( ISPICKVAL( copado__Dependency_Status__c ,&#39;Completed&#39;), ISPICKVAL( copado__Dependency_Status__c ,&#39;Deferred&#39;), ISPICKVAL( copado__Dependency_Status__c ,&#39;Never&#39;))</formula>
+    <formula>OR( ISPICKVAL( copado__Dependency_Status__c ,&apos;Completed&apos;), ISPICKVAL( copado__Dependency_Status__c ,&apos;Deferred&apos;), ISPICKVAL( copado__Dependency_Status__c ,&apos;Never&apos;))</formula>
     <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
     <label>Skip Dependency</label>
     <trackHistory>false</trackHistory>
