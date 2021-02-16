@@ -3,7 +3,7 @@
     <fullName>copado__Sandbox_Installation_URL__c</fullName>
     <deprecated>false</deprecated>
     <externalId>false</externalId>
-    <formula>HYPERLINK(&#39;https://test.salesforce.com/packaging/installPackage.apexp?p0=&#39;+copado__Subscriber_Version_Id__c, &#39;https://test.salesforce.com/packaging/installPackage.apexp?p0=&#39;+copado__Subscriber_Version_Id__c, &#39;_blank&#39;)</formula>
+    <formula>HYPERLINK(&apos;https://test.salesforce.com/packaging/installPackage.apexp?p0=&apos;+copado__Subscriber_Version_Id__c, &apos;https://test.salesforce.com/packaging/installPackage.apexp?p0=&apos;+copado__Subscriber_Version_Id__c, &apos;_blank&apos;)</formula>
     <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
     <inlineHelpText>Use this URL in order to install this package in a sandbox environment.</inlineHelpText>
     <label>Sandbox Installation URL</label>

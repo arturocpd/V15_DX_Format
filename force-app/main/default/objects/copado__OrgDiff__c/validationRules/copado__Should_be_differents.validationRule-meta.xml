@@ -4,5 +4,5 @@
     <active>true</active>
     <errorConditionFormula>copado__From_Org__c =  copado__To_Org__c</errorConditionFormula>
     <errorDisplayField>copado__To_Org__c</errorDisplayField>
-    <errorMessage>The Org&#39;s to be compared can not be the same.</errorMessage>
+    <errorMessage>The Org&apos;s to be compared can not be the same.</errorMessage>
 </ValidationRule>

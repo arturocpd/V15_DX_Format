@@ -8,5 +8,5 @@
     <masterLabel>Execute Test Run</masterLabel>
     <openType>replace</openType>
     <protected>false</protected>
-    <url>/apex/{!IF($Setup.copado__Settings__c.copado__Namespace__c=&#39;none&#39;,&#39;&#39;,if(isblank($Setup.copado__Settings__c.copado__Namespace__c),&#39;copado__&#39;,$Setup.copado__Settings__c.copado__Namespace__c))}ExecuteTestRun?id={!copado__Test_Run__c.Id}</url>
+    <url>/apex/{!IF($Setup.copado__Settings__c.copado__Namespace__c=&apos;none&apos;,&apos;&apos;,if(isblank($Setup.copado__Settings__c.copado__Namespace__c),&apos;copado__&apos;,$Setup.copado__Settings__c.copado__Namespace__c))}ExecuteTestRun?id={!copado__Test_Run__c.Id}</url>
 </WebLink>

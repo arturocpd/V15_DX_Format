@@ -9,5 +9,5 @@
     <masterLabel>Run Test</masterLabel>
     <openType>sidebar</openType>
     <protected>false</protected>
-    <url>/apex/{!IF($Setup.copado__Settings__c.copado__Namespace__c=&#39;none&#39;,&#39;&#39;,if(isblank($Setup.copado__Settings__c.copado__Namespace__c),&#39;copado__&#39;,$Setup.copado__Settings__c.copado__Namespace__c))}SeleniumTestQuickRun?runId={!copado__Selenium_Test_Run__c.Id}</url>
+    <url>/apex/{!IF($Setup.copado__Settings__c.copado__Namespace__c=&apos;none&apos;,&apos;&apos;,if(isblank($Setup.copado__Settings__c.copado__Namespace__c),&apos;copado__&apos;,$Setup.copado__Settings__c.copado__Namespace__c))}SeleniumTestQuickRun?runId={!copado__Selenium_Test_Run__c.Id}</url>
 </WebLink>
