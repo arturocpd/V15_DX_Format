@@ -9,5 +9,5 @@
     <masterLabel>Add Metadata</masterLabel>
     <openType>sidebar</openType>
     <protected>false</protected>
-    <url>/apex/{!if($Setup.copado__Settings__c.copado__Namespace__c =&#39;none&#39;,&#39;&#39;,&#39;copado__&#39;)}metadataselector?id={!copado__User_Story__c.Id}&amp;mode=MetaData</url>
+    <url>/apex/{!if($Setup.copado__Settings__c.copado__Namespace__c =&apos;none&apos;,&apos;&apos;,&apos;copado__&apos;)}metadataselector?id={!copado__User_Story__c.Id}&amp;mode=MetaData</url>
 </WebLink>

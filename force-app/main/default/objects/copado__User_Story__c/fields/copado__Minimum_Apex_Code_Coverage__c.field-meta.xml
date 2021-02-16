@@ -3,7 +3,7 @@
     <fullName>copado__Minimum_Apex_Code_Coverage__c</fullName>
     <defaultValue>0.75</defaultValue>
     <deprecated>false</deprecated>
-    <description>Minimum Apex Code Coverage required. If this value is lower than the value set in the User Story&#39;s Environment, the Environment&#39;s value will be automatically applied.</description>
+    <description>Minimum Apex Code Coverage required. If this value is lower than the value set in the User Story&apos;s Environment, the Environment&apos;s value will be automatically applied.</description>
     <externalId>false</externalId>
     <label>Minimum Apex Code Coverage</label>
     <precision>3</precision>

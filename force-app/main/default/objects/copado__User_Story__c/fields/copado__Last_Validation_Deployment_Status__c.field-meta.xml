@@ -5,12 +5,12 @@
     <description>Status of the latest validation Deployment for the User Story.</description>
     <externalId>false</externalId>
     <formula>IF(copado__Last_Validation_Deployment__r.copado__Date__c &lt; copado__Latest_Commit_Date__c,
-			 IMAGE(&#39;/img/msg_icons/warning16.png&#39;,&#39;OutDated&#39;)+&quot; &quot;+&quot;Validation Outdated&quot;, 
+			 IMAGE(&apos;/img/msg_icons/warning16.png&apos;,&apos;OutDated&apos;)+&quot; &quot;+&quot;Validation Outdated&quot;, 
 				IF(AND(NOT(ISBLANK(copado__Last_Validation_Deployment__c)),
-											CONTAINS(TEXT(copado__Last_Validation_Deployment__r.copado__Status__c),&#39;Error&#39;)),
+											CONTAINS(TEXT(copado__Last_Validation_Deployment__r.copado__Status__c),&apos;Error&apos;)),
 							IMAGE(&quot;/img/samples/flag_red.gif&quot;,&quot;failed&quot;)+&quot; &quot;+TEXT(copado__Last_Validation_Deployment__r.copado__Status__c),
 							IF(AND(NOT(ISBLANK(copado__Last_Validation_Deployment__c)),
-											CONTAINS(TEXT(copado__Last_Validation_Deployment__r.copado__Status__c),&#39;Successfully&#39;)),
+											CONTAINS(TEXT(copado__Last_Validation_Deployment__r.copado__Status__c),&apos;Successfully&apos;)),
 										IMAGE(&quot;/img/samples/flag_green.gif&quot;,&quot;completed&quot;)+&quot; &quot;+TEXT(copado__Last_Validation_Deployment__r.copado__Status__c),
 										TEXT(copado__Last_Validation_Deployment__r.copado__Status__c)
 									)

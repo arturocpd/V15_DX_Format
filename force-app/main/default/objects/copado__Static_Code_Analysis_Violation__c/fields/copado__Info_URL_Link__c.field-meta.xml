@@ -3,7 +3,7 @@
     <fullName>copado__Info_URL_Link__c</fullName>
     <deprecated>false</deprecated>
     <externalId>false</externalId>
-    <formula>HYPERLINK(copado__Info_URL__c, IMAGE(&#39;/img/msg_icons/info24.png&#39;, &#39;Info URL&#39;, 18, 18) )</formula>
+    <formula>HYPERLINK(copado__Info_URL__c, IMAGE(&apos;/img/msg_icons/info24.png&apos;, &apos;Info URL&apos;, 18, 18) )</formula>
     <label>Info URL</label>
     <required>false</required>
     <trackTrending>false</trackTrending>
