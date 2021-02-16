@@ -8,5 +8,5 @@
     <masterLabel>Mass add to Release</masterLabel>
     <openType>replace</openType>
     <protected>false</protected>
-    <url>/apex/{!if($Setup.copado__Settings__c.copado__Namespace__c =&#39;none&#39;,&#39;&#39;,&#39;copado__&#39;)}MassAddToRelease?id={!copado__Release__c.Id}</url>
+    <url>/apex/{!if($Setup.copado__Settings__c.copado__Namespace__c =&apos;none&apos;,&apos;&apos;,&apos;copado__&apos;)}MassAddToRelease?id={!copado__Release__c.Id}</url>
 </WebLink>
