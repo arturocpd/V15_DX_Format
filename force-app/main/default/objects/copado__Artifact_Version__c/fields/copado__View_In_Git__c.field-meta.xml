@@ -5,17 +5,17 @@
     <externalId>false</externalId>
     <formula>HYPERLINK(
 	IF(
-		AND(NOT(ISNULL(copado__Release__r.copado__Project__r.copado__Deployment_Flow__r.copado__Git_Repository__r.copado__Tag_Base_URL__c )), copado__Release__r.copado__Project__r.copado__Deployment_Flow__r.copado__Git_Repository__r.copado__Tag_Base_URL__c != &#39;&#39;),
+		AND(NOT(ISNULL(copado__Release__r.copado__Project__r.copado__Deployment_Flow__r.copado__Git_Repository__r.copado__Tag_Base_URL__c )), copado__Release__r.copado__Project__r.copado__Deployment_Flow__r.copado__Git_Repository__r.copado__Tag_Base_URL__c != &apos;&apos;),
 		IF(
-			AND(NOT(ISPICKVAL(copado__Release__r.copado__Project__r.copado__Deployment_Flow__r.copado__Git_Repository__r.copado__Git_Provider__c,&#39;&#39;)),NOT(ISPICKVAL(copado__Release__r.copado__Project__r.copado__Deployment_Flow__r.copado__Git_Repository__r.copado__Git_Provider__c, &#39;Others&#39;))),
+			AND(NOT(ISPICKVAL(copado__Release__r.copado__Project__r.copado__Deployment_Flow__r.copado__Git_Repository__r.copado__Git_Provider__c,&apos;&apos;)),NOT(ISPICKVAL(copado__Release__r.copado__Project__r.copado__Deployment_Flow__r.copado__Git_Repository__r.copado__Git_Provider__c, &apos;Others&apos;))),
 			copado__Release__r.copado__Project__r.copado__Deployment_Flow__r.copado__Git_Repository__r.copado__Tag_Base_URL__c +  copado__Version__c,
 			IF(
-				CONTAINS(copado__Release__r.copado__Project__r.copado__Deployment_Flow__r.copado__Git_Repository__r.copado__Tag_Base_URL__c,&#39;[TAG_NAME]&#39;),
-				SUBSTITUTE(copado__Release__r.copado__Project__r.copado__Deployment_Flow__r.copado__Git_Repository__r.copado__Tag_Base_URL__c,&#39;[TAG_NAME]&#39;,copado__Version__c),
+				CONTAINS(copado__Release__r.copado__Project__r.copado__Deployment_Flow__r.copado__Git_Repository__r.copado__Tag_Base_URL__c,&apos;[TAG_NAME]&apos;),
+				SUBSTITUTE(copado__Release__r.copado__Project__r.copado__Deployment_Flow__r.copado__Git_Repository__r.copado__Tag_Base_URL__c,&apos;[TAG_NAME]&apos;,copado__Version__c),
 				copado__Release__r.copado__Project__r.copado__Deployment_Flow__r.copado__Git_Repository__r.copado__Tag_Base_URL__c + copado__Version__c
 			)
 		),
-	&#39;&#39;), 
+	&apos;&apos;), 
 	copado__Version__c
 )</formula>
     <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>

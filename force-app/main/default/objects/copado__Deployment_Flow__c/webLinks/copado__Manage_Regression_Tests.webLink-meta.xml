@@ -8,5 +8,5 @@
     <masterLabel>Manage Regression Tests</masterLabel>
     <openType>replace</openType>
     <protected>false</protected>
-    <url>/apex/{!if($Setup.copado__Settings__c.copado__Namespace__c =&#39;none&#39;,&#39;&#39;,&#39;copado__&#39;)}ManageSeleniumTesting?regression=true&amp;flowId={!copado__Deployment_Flow__c.Id}</url>
+    <url>/apex/{!if($Setup.copado__Settings__c.copado__Namespace__c =&apos;none&apos;,&apos;&apos;,&apos;copado__&apos;)}ManageSeleniumTesting?regression=true&amp;flowId={!copado__Deployment_Flow__c.Id}</url>
 </WebLink>

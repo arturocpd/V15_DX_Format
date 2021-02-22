@@ -6,17 +6,17 @@
     <formula>IMAGE(
 CASE(TEXT(copado__Status__c),
 
-&#39;Potential Conflict&#39;, &#39;/resource/&#39; &amp; IF($Setup.copado__Settings__c.copado__Namespace__c=&#39;none&#39;,&#39;&#39;,if(isblank($Setup.copado__Settings__c.copado__Namespace__c),&#39;copado__&#39;,$Setup.copado__Settings__c.copado__Namespace__c)) &amp; &#39;Statics/img/icons/warning16.png&#39;,
+&apos;Potential Conflict&apos;, &apos;/resource/&apos; &amp; IF($Setup.copado__Settings__c.copado__Namespace__c=&apos;none&apos;,&apos;&apos;,if(isblank($Setup.copado__Settings__c.copado__Namespace__c),&apos;copado__&apos;,$Setup.copado__Settings__c.copado__Namespace__c)) &amp; &apos;Statics/img/icons/warning16.png&apos;,
 
-&#39;Back Promoted&#39;, &#39;/resource/&#39; &amp; IF($Setup.copado__Settings__c.copado__Namespace__c=&#39;none&#39;,&#39;&#39;,if(isblank($Setup.copado__Settings__c.copado__Namespace__c),&#39;copado__&#39;,$Setup.copado__Settings__c.copado__Namespace__c)) &amp; &#39;Statics/img/icons/warning16.png&#39;,
+&apos;Back Promoted&apos;, &apos;/resource/&apos; &amp; IF($Setup.copado__Settings__c.copado__Namespace__c=&apos;none&apos;,&apos;&apos;,if(isblank($Setup.copado__Settings__c.copado__Namespace__c),&apos;copado__&apos;,$Setup.copado__Settings__c.copado__Namespace__c)) &amp; &apos;Statics/img/icons/warning16.png&apos;,
 
-&#39;Conflict Resolved&#39;, &#39;/resource/&#39; &amp; IF($Setup.copado__Settings__c.copado__Namespace__c=&#39;none&#39;,&#39;&#39;,if(isblank($Setup.copado__Settings__c.copado__Namespace__c),&#39;copado__&#39;,$Setup.copado__Settings__c.copado__Namespace__c)) &amp; &#39;Statics/img/icons/confirm16.png&#39;,
+&apos;Conflict Resolved&apos;, &apos;/resource/&apos; &amp; IF($Setup.copado__Settings__c.copado__Namespace__c=&apos;none&apos;,&apos;&apos;,if(isblank($Setup.copado__Settings__c.copado__Namespace__c),&apos;copado__&apos;,$Setup.copado__Settings__c.copado__Namespace__c)) &amp; &apos;Statics/img/icons/confirm16.png&apos;,
 
-&#39;Under Review&#39;, &#39;/resource/&#39; &amp; IF($Setup.copado__Settings__c.copado__Namespace__c=&#39;none&#39;,&#39;&#39;,if(isblank($Setup.copado__Settings__c.copado__Namespace__c),&#39;copado__&#39;,$Setup.copado__Settings__c.copado__Namespace__c)) &amp; &#39;Statics/img/icons/loading.gif&#39;,
+&apos;Under Review&apos;, &apos;/resource/&apos; &amp; IF($Setup.copado__Settings__c.copado__Namespace__c=&apos;none&apos;,&apos;&apos;,if(isblank($Setup.copado__Settings__c.copado__Namespace__c),&apos;copado__&apos;,$Setup.copado__Settings__c.copado__Namespace__c)) &amp; &apos;Statics/img/icons/loading.gif&apos;,
 
-&#39;On Hold&#39;, &#39;/resource/&#39; &amp; IF($Setup.copado__Settings__c.copado__Namespace__c=&#39;none&#39;,&#39;&#39;,if(isblank($Setup.copado__Settings__c.copado__Namespace__c),&#39;copado__&#39;,$Setup.copado__Settings__c.copado__Namespace__c)) &amp; &#39;Statics/img/icons/warning16.png&#39;,
+&apos;On Hold&apos;, &apos;/resource/&apos; &amp; IF($Setup.copado__Settings__c.copado__Namespace__c=&apos;none&apos;,&apos;&apos;,if(isblank($Setup.copado__Settings__c.copado__Namespace__c),&apos;copado__&apos;,$Setup.copado__Settings__c.copado__Namespace__c)) &amp; &apos;Statics/img/icons/warning16.png&apos;,
 
-&#39;/s.gif&#39;),
+&apos;/s.gif&apos;),
 
 TEXT(copado__Status__c)
 )</formula>

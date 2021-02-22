@@ -5,17 +5,17 @@
     <externalId>false</externalId>
     <formula>HYPERLINK(
 	IF(
-	AND(NOT(ISNULL(copado__Snapshot_Commit__r.copado__Git_Backup__r.copado__Git_Repository__r.copado__Commit_Base_URL__c)),	copado__Snapshot_Commit__r.copado__Git_Backup__r.copado__Git_Repository__r.copado__Commit_Base_URL__c != &#39;&#39;), 
+	AND(NOT(ISNULL(copado__Snapshot_Commit__r.copado__Git_Backup__r.copado__Git_Repository__r.copado__Commit_Base_URL__c)),	copado__Snapshot_Commit__r.copado__Git_Backup__r.copado__Git_Repository__r.copado__Commit_Base_URL__c != &apos;&apos;), 
 		IF(
-			AND(NOT(ISPICKVAL(copado__Snapshot_Commit__r.copado__Git_Backup__r.copado__Git_Repository__r.copado__Git_Provider__c,&#39;&#39;)),NOT(ISPICKVAL(copado__Snapshot_Commit__r.copado__Git_Backup__r.copado__Git_Repository__r.copado__Git_Provider__c, &#39;Others&#39;))),
+			AND(NOT(ISPICKVAL(copado__Snapshot_Commit__r.copado__Git_Backup__r.copado__Git_Repository__r.copado__Git_Provider__c,&apos;&apos;)),NOT(ISPICKVAL(copado__Snapshot_Commit__r.copado__Git_Backup__r.copado__Git_Repository__r.copado__Git_Provider__c, &apos;Others&apos;))),
 			copado__Snapshot_Commit__r.copado__Git_Backup__r.copado__Git_Repository__r.copado__Commit_Base_URL__c +  copado__Snapshot_Commit__r.copado__Commit_Id__c,
 			IF(
-				CONTAINS(copado__Snapshot_Commit__r.copado__Git_Backup__r.copado__Git_Repository__r.copado__Commit_Base_URL__c,&#39;[COMMIT_ID]&#39;),
-				SUBSTITUTE(copado__Snapshot_Commit__r.copado__Git_Backup__r.copado__Git_Repository__r.copado__Commit_Base_URL__c,&#39;[COMMIT_ID]&#39;,copado__Snapshot_Commit__r.copado__Commit_Id__c),
+				CONTAINS(copado__Snapshot_Commit__r.copado__Git_Backup__r.copado__Git_Repository__r.copado__Commit_Base_URL__c,&apos;[COMMIT_ID]&apos;),
+				SUBSTITUTE(copado__Snapshot_Commit__r.copado__Git_Backup__r.copado__Git_Repository__r.copado__Commit_Base_URL__c,&apos;[COMMIT_ID]&apos;,copado__Snapshot_Commit__r.copado__Commit_Id__c),
 				copado__Snapshot_Commit__r.copado__Git_Backup__r.copado__Git_Repository__r.copado__Commit_Base_URL__c + copado__Snapshot_Commit__r.copado__Commit_Id__c
 			)
 		),
-	&#39;&#39;), 
+	&apos;&apos;), 
 	copado__Snapshot_Commit__r.copado__Commit_Id__c
 )</formula>
     <label>View in Git</label>
