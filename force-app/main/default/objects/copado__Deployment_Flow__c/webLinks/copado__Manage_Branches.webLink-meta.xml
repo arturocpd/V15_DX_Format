@@ -16,5 +16,5 @@
     <protected>false</protected>
     <showsLocation>false</showsLocation>
     <showsStatus>false</showsStatus>
-    <url>/apex/{!if($Setup.copado__Settings__c.copado__Namespace__c =&#39;none&#39;,&#39;&#39;,&#39;copado__&#39;)}BranchManagement?id={!copado__Deployment_Flow__c.Id}</url>
+    <url>/apex/{!if($Setup.copado__Settings__c.copado__Namespace__c =&apos;none&apos;,&apos;&apos;,&apos;copado__&apos;)}BranchManagement?id={!copado__Deployment_Flow__c.Id}</url>
 </WebLink>

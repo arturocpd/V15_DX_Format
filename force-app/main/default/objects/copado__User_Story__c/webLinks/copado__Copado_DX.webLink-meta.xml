@@ -9,5 +9,5 @@
     <masterLabel>DX Operations</masterLabel>
     <openType>noSidebar</openType>
     <protected>false</protected>
-    <url>/apex/{!IF( $Setup.copado__Settings__c.copado__Namespace__c != &#39;none&#39;, $Setup.copado__Settings__c.copado__Namespace__c, &#39;&#39;)}dxoperation?id={!copado__User_Story__c.Id}</url>
+    <url>/apex/{!IF( $Setup.copado__Settings__c.copado__Namespace__c != &apos;none&apos;, $Setup.copado__Settings__c.copado__Namespace__c, &apos;&apos;)}dxoperation?id={!copado__User_Story__c.Id}</url>
 </WebLink>

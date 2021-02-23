@@ -4,7 +4,7 @@
     <deleteConstraint>SetNull</deleteConstraint>
     <deprecated>false</deprecated>
     <externalId>false</externalId>
-    <inlineHelpText>The depending package artifact which contains required dependencies for the dependent package&#39;s metadata</inlineHelpText>
+    <inlineHelpText>The depending package artifact which contains required dependencies for the dependent package&apos;s metadata</inlineHelpText>
     <label>Depending Artifact</label>
     <referenceTo>copado__Artifact__c</referenceTo>
     <relationshipLabel>Artifact_Dependencies (Depending Artifact)</relationshipLabel>

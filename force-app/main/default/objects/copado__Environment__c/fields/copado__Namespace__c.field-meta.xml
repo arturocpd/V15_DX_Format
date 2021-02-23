@@ -3,7 +3,7 @@
     <fullName>copado__Namespace__c</fullName>
     <deprecated>false</deprecated>
     <externalId>false</externalId>
-    <inlineHelpText>If you&#39;re developing managed packages, this will help you to write only one version of the pre/post Apex Code in Selenium Test Suites. Copado will replace any &quot;{!NS}&quot; text with this value.</inlineHelpText>
+    <inlineHelpText>If you&apos;re developing managed packages, this will help you to write only one version of the pre/post Apex Code in Selenium Test Suites. Copado will replace any &quot;{!NS}&quot; text with this value.</inlineHelpText>
     <label>Namespace</label>
     <length>128</length>
     <required>false</required>

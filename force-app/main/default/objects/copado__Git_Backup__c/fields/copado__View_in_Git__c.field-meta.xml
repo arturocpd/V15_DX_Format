@@ -6,17 +6,17 @@
     <externalId>false</externalId>
     <formula>HYPERLINK(
 	IF(
-		AND(NOT(ISNULL(copado__Git_Repository__r.copado__Branch_Base_URL__c)), copado__Git_Repository__r.copado__Branch_Base_URL__c != &#39;&#39;), 
+		AND(NOT(ISNULL(copado__Git_Repository__r.copado__Branch_Base_URL__c)), copado__Git_Repository__r.copado__Branch_Base_URL__c != &apos;&apos;), 
 		IF(
-			AND(NOT(ISPICKVAL(copado__Git_Repository__r.copado__Git_Provider__c,&#39;&#39;)),NOT(ISPICKVAL(copado__Git_Repository__r.copado__Git_Provider__c, &#39;Others&#39;))),
+			AND(NOT(ISPICKVAL(copado__Git_Repository__r.copado__Git_Provider__c,&apos;&apos;)),NOT(ISPICKVAL(copado__Git_Repository__r.copado__Git_Provider__c, &apos;Others&apos;))),
 			copado__Git_Repository__r.copado__Branch_Base_URL__c +  copado__Branch__c,
 			IF(
-				CONTAINS(copado__Git_Repository__r.copado__Branch_Base_URL__c,&#39;[BRANCH_NAME]&#39;),
-				SUBSTITUTE(copado__Git_Repository__r.copado__Branch_Base_URL__c,&#39;[BRANCH_NAME]&#39;,copado__Branch__c),
+				CONTAINS(copado__Git_Repository__r.copado__Branch_Base_URL__c,&apos;[BRANCH_NAME]&apos;),
+				SUBSTITUTE(copado__Git_Repository__r.copado__Branch_Base_URL__c,&apos;[BRANCH_NAME]&apos;,copado__Branch__c),
 				copado__Git_Repository__r.copado__Branch_Base_URL__c + copado__Branch__c
 			)
 		),
-	&#39;&#39;), 
+	&apos;&apos;), 
 	copado__Branch__c
 )</formula>
     <label>View in Git</label>

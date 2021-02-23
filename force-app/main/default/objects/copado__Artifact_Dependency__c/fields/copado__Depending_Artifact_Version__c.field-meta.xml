@@ -8,7 +8,7 @@
     <label>Depending Artifact Version</label>
     <lookupFilter>
         <active>true</active>
-        <errorMessage>Value does not exist or does not match filter criteria. Depending version should be selected among the depending artifact&#39;s versions.</errorMessage>
+        <errorMessage>Value does not exist or does not match filter criteria. Depending version should be selected among the depending artifact&apos;s versions.</errorMessage>
         <filterItems>
             <field>$Source.copado__Depending_Artifact__c</field>
             <operation>equals</operation>
