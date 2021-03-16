@@ -1,7 +1,7 @@
+
 .gitignore
+/deployment
 **vlocity
 **.git
-/.git
-/deployment
-
 **/__tests__/**
+/.git
